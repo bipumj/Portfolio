@@ -1,5 +1,49 @@
 body{
     font-family: 'Bebas Neue', cursive;
     font-family: 'Nunito Sans', sans-serif;
+    margin: 0%;
 }
-.my name
+h1{
+    font-size: 50px;
+}
+.my-name{
+    color: orange;
+}
+p{
+   font-size: 25px; 
+}
+section{
+    display: flex;
+    margin-bottom: 100px;
+}
+.half-width{
+    width: 50%;
+    padding-left: 2%;
+}
+.half-width img{
+    width: 100%;
+}
+.click-button{
+    text-decoration: none;
+    background-color: tomato;
+    padding: 10px 40px;
+    color: white;
+    font-weight: 400;
+    border-radius: 5px;
+}
+.top-banner{
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+}
+.dream-big{
+    background-image: url(images/dream-bg.png);
+    background-image: url(images/my-bg.png);
+    background-repeat: no-repeat;
+}
+.resume{
+    text-decoration: none;
+    background-color: tomato;
+    padding: 10px 60px;
+    color: white;
+    border-radius: 4px;
+}
